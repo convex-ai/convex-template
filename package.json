@@ -12,7 +12,8 @@
     "start": "next start",
     "lint": "next lint",
     "preview": "next build && next start",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "migration": "prisma migrate dev --name init"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.1.0",
