@@ -3,8 +3,7 @@
 ## Getting Started
 ### 1. Deploy this template
 
-[]()
-
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fconvex-ai%2Fconvex-template%2Ftree%2Ftidb-service&integration-ids=oac_coKBVWCXNjJnCEth1zzKoF1j)
 ### 2. Connect your TiDB Data Service to your repo
 
 connect your TiDB Data Service to your repo. you can found config in your data service config page.
