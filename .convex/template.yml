@@ -1,12 +1,11 @@
 name: nextjs13
 version: 0.0.1
 agents:
-  - prisma
+  - convex/spec
+  - tidb/prisma
   - openapi
-  - tidb
-  - tidb/service
   - nextjs/13/api
   - nextjs/13/web
-  - nextjs/13/test
   - nextjs/13/docs
+  - nextjs/13/test
   - openai/plugin
