@@ -1,5 +1,18 @@
 # Convex Template - NextJS13
 
+## 👋🏻 One click TiDB/Vercel deployment
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fconvex-ai%2Fconvex-template&integration-ids=oac_coKBVWCXNjJnCEth1zzKoF1j)
+
+### Other Template
+- [TiDB Data Service](https://github.com/convex-ai/convex-template/tree/tidb-service)
+- [NextJS 13 with page router](https://github.com/convex-ai/convex-template-backup)
+
+
+### 📘 Prerequisites
+- TiDB Cloud Account
+- Vercel (will install TiDB Integration)
+
+
 ## Features
 - NextJS 13
 - TiDB Cloud
@@ -10,5 +23,4 @@
 - [x] TiDB Cloud
 - [x] OpenAI Plugin
 - [x] Doc [MDX]
-- [ ] TiDB Data service
 - [ ] Auth
