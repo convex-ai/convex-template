@@ -22,19 +22,19 @@ This article provides a step-by-step guide on how to use convex to create a webs
 
    We have prepared 3 versions of the seed app
 
-  - **NextJS 13**
+  -[NextJS 13 with app router](https://github.com/convex-ai/convex-template)
 
     Full functionality, integrated with documentation, testing, etc.
 
-    ⚠️ But limited by the openai model, NextJS 13 was released in the past few months, and GPT's training is not very comprehensive, so there is a high probability that manual intervention is needed.
+    > ⚠️ But limited by the openai model, NextJS 13 was released in the past few months, and GPT's training is not very comprehensive, so there is a high probability that manual intervention is needed.
 
-  - **NextJS 12**
+- [NextJS 13 with page router](https://github.com/convex-ai/convex-template-backup)
 
     The initial MVP version, without integrated documentation.
 
     High generation stability.
 
-  - **NextJS 13 + TiDB data service (sp500 demo)**
+- [Next13 + TiDB Data Service](https://github.com/convex-ai/convex-template/tree/tidb-service)
 
 ## 3. Deploy the seed app
 
@@ -69,7 +69,11 @@ This article provides a step-by-step guide on how to use convex to create a webs
 ## 5. Run locally
 
    ```bash
+#  Your need env DATABASE_URL in local.
+#  You can get it by `vercel env pull`
+#  or you can found it in vercel your project setting page. Environment Section.
    cp .env.example .env
+
    npm run postinstall
    npm run migration
    npm run dev

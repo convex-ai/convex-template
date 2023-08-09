@@ -7,6 +7,8 @@
 - [TiDB Data Service](https://github.com/convex-ai/convex-template/tree/tidb-service)
 - [NextJS 13 with page router](https://github.com/convex-ai/convex-template-backup)
 
+### 📖 Getting Started
+see [USER_GUIDE.md](./USER_GUIDE.md)
 
 ### 📘 Prerequisites
 - TiDB Cloud Account
